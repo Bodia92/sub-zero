@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <meta name="theme-color" content="#a21c26" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <title>Sub Zero</title>
+
+    <!-- FAVICONS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+
+  <script type="module" crossorigin src="./assets/js/vendor.min.js"></script>
+  <script type="module" crossorigin src="./assets/js/main.min2.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/css/style.min.css">
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <header class="header">
+            <div class="header__container" data-anim="fade-down">
+                <a href="/" class="header__logo"><img src="./assets/images/logo.svg" alt="Sub Zero" /></a>
+        
+                <div class="header__actions">
+                    <a class="header__link-phone" href="tel:6045236778" aria-label="phone main">
+                        <svg class="icon">
+                            <use href="./assets/images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        (XXX) XXX-XXXX
+                    </a>
+        
+                    <a class="header__link btn btn-main" href="#main-form" aria-label="book service">
+                        Book Service
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="page page--thank-you">
+
+            <section class="section thank-you">
+                <div class="thank-you__container">
+                    <h1 class="thank-you__title title" data-anim="fade-up">Thank you! Your application
+                        has been accepted!</h1>
+                    <div class="thank-you__text" data-anim="fade-up" data-anim-delay="0.3">
+                        <p>Our local sales representative will get in touch with you within 48 hours.
+                        </p>
+                    </div>
+                    <a class="thank-you__btn btn" href="/" data-anim="fade-up" data-anim-delay="0.5">Back to Home</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <a href="/" class="footer__logo"><img src="./assets/images/logo-white.svg" alt="Sub Zero" /></a>
+        
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <h2 class="footer__title">Sub-Zero Repair Co.</h2>
+                        <div class="footer__contacts contacts">
+                            <div class="contacts__item">
+                                <svg class="icon">
+                                    <use href="./assets/images/sprite.svg#icon-phone"></use>
+                                </svg>
+                                <a href="tel:+38000000000" class="footer__link">(XXX) XXX-XXXX</a>
+                            </div>
+                            <div class="contacts__item">
+                                <svg class="icon">
+                                    <use href="./assets/images/sprite.svg#icon-location"></use>
+                                </svg>
+                                <a href="#" class="footer__link">123 Main St, New York, NY</a>
+                            </div>
+                            <div class="contacts__item">
+                                <svg class="icon">
+                                    <use href="./assets/images/sprite.svg#icon-mail"></use>
+                                </svg>
+                                <a href="mailto:info@company.com" class="footer__link">info@company.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h2 class="footer__title">Service Areas</h2>
+                        <div class="footer__text">
+                            <p>New York · Brooklyn</p>
+                            <p>Queens · The Bronx</p>
+                            <p>Staten Island</p>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h2 class="footer__title">Legal</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">License #: XXXXX</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>© 2024 Sub-Zero Repair Co.</p>
+                    <p>All Rights Reserved</p>
+                    <p> Made by SmartProvide Digital</p>
+                </div>
+            </div>
+        </footer>    </div>
+    <div id="contact-us" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+            <div class="popup__content">
+                <div class="popup__body">
+                    <button class="popup__close" data-close-popup aria-label="Закрити" type="button"></button>
+                    <h2 class="popup__title title">Ready to Start
+                        Your Home Remodel?</h2>
+    
+                    <div class="popup__subtitle">Get Your Free In-Home Estimate Today</div>
+    
+                    <form action="">
+                        <div class="form-group">
+                            <input class="form-input" type="text" name="" id="name-modal" required placeholder="Full name">
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <input class="form-input" type="phone" name="" id="phone-modal" required
+                                    placeholder="Phone number">
+                            </div>
+    
+                            <div class="form-group">
+                                <input class="form-input" type="email" name="" id="email-modal" required
+                                    placeholder="Email address">
+                            </div>
+                        </div>
+    
+                        <div class="form-options">
+                            <div class="form-options__trigger">Please select an option
+    
+                                <svg class="icon">
+                                    <use href="./assets/images/sprite.svg#icon-arrow-down"></use>
+                                </svg>
+                            </div>
+                            <div class="form-options__body">
+                                <div class="form-options__content">
+                                    <label for="installation" class="custom-radio">
+                                        <input type="radio" name="servise" id="installation" checked>
+                                        Stone & Tile Installation
+                                    </label>
+                                    <label for="remodeling" class="custom-radio">
+                                        <input type="radio" name="servise" id="remodeling">
+                                        Bathroom Remodeling
+                                    </label>
+                                    <label for="backsplashes" class="custom-radio">
+                                        <input type="radio" name="servise" id="backsplashes">
+                                        Kitchen Tile & Backsplashes
+                                    </label>
+                                    <label for="projects" class="custom-radio">
+                                        <input type="radio" name="servise" id="projects">
+                                        Residential Projects
+                                    </label>
+                                    <label for="projects" class="custom-radio">
+                                        <input type="radio" name="servise" id="projects">
+                                        Commercial Projects
+                                    </label>
+                                    <label for="epoxy-floor" class="custom-radio">
+                                        <input type="radio" name="servise" id="epoxy-floor">
+                                        Epoxy floor
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <button class="btn-form btn" type="submit">Get an estimate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="popup-success" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+    
+            <div class="popup__content">
+                <button class="popup__close close-popup" data-close-popup aria-label="Close" type="button"></button>
+    
+                <div class="popup__body">
+                    <h2 class="popup__title">
+                        Дякуємо!
+                    </h2>
+                    <div class="popup__text">
+                        <p>Ми звʼяжемось з вами протягом 24 годин</p>
+                    </div>
+                    <button class="btn" type="button" data-close-popup>Ок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>
