@@ -839,8 +839,11 @@
                                     placeholder="Appliance Issue"></textarea>
                             </div>
 
-                            <div class="form-messages" data-anim="fade-up">
-                                <div class="form-messages__icon"></div>
+                            <label class="form-messages custom-consent-checkbox" data-anim="fade-up">
+                                <input type="checkbox" name="consent" checked required>
+
+                                <span class="form-messages__icon"></span>
+
                                 <div class="form-messages__text">
                                     By checking this box, I consent to receive text messages from Midwest Standards
                                     related
@@ -848,9 +851,10 @@
                                     assistance,
                                     reply HELP. Messages and data rates may apply. Message frequency will vary. Learn
                                     more
-                                    on our <a href="#">Privacy Policy Page</a>.
+                                    on our <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy
+                                        Page</a>.
                                 </div>
-                            </div>
+                            </label>
                             <button class="btn-form btn" type="submit" data-anim="fade-up">GET SERVICE TODAY
                                 <svg class="icon">
                                     <use href="./assets/images/sprite.svg#icon-arrow-next"></use>
